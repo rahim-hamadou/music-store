@@ -1,0 +1,81 @@
+.cardType {
+	/* border: 1px solid rgb(50, 73, 186); */
+	width: 40vw;
+	height: 80vh;
+	color: #000;
+	margin: 15px;
+	/* background: plum; */
+	height: 80vh;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+.cardType:nth-child(1) {
+	background: url("../public/phantom1.png");
+	background-size: cover;
+	background-position: center;
+}
+.cardType:nth-child(2) {
+	background: url("../public/phantom2.png");
+	background-size: cover;
+	background-position: center;
+}
+.cardType:nth-child(3) {
+	background: url("../public/phantom3.png");
+	background-size: cover;
+	background-position: center;
+}
+.cardType:nth-child(4) {
+	background: url("../public/phantom4.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.cardText {
+	/* background: red; */
+	width: 100%;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+
+.textInfo span {
+	margin: 10px 0;
+	display: flex;
+	flex-direction: column;
+}
+.textInfo .title {
+	font-size: 15px;
+}
+.textInfo .info {
+	font-size: 27px;
+	font-weight: 700;
+}
+
+.cardText button {
+	width: 150px;
+	padding: 15px;
+	border-radius: 5px;
+	border: none;
+	background: #000;
+	color: #fff;
+	font-weight: 600;
+	transition-duration: 0.7s;
+}
+
+.cardText button:hover {
+	color: black;
+	background: white;
+	border: 1px solid black;
+}
+
+@media screen and (max-width: 700px) {
+	/* Rédigez vos propriétés CSS ici */
+	.cardType {
+		width: 100%;
+		margin: 15px 0;
+	}
+}

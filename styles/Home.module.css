@@ -1,0 +1,199 @@
+/* .main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 4rem 0;
+} */
+
+/* HEADER */
+
+.homeTop {
+	color: #fff;
+	height: 100vh;
+	background: url("../public/background.png") no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.nav {
+	padding: 20px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btn {
+	width: 15%;
+	margin: 0 50px;
+}
+/* .btn span {
+	font-size: 90px;
+} */
+
+.titleName p {
+	font-size: 35px;
+	margin: 0;
+}
+.iconPlus {
+	width: 15%;
+	margin: 0 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.iconPlus span {
+	margin: 5px;
+	font-size: 20px;
+}
+
+.discover {
+	display: flex;
+	justify-content: space-between;
+}
+
+.focus {
+	display: flex;
+	flex-direction: column;
+	margin: 50px;
+}
+
+.focus span:nth-child(1) {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.focus span:nth-child(2) {
+	font-size: 36px;
+	font-weight: 700;
+}
+.btnChoice {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50px;
+}
+.btnChoice button {
+	text-transform: uppercase;
+	width: 150px;
+	border-radius: 6px;
+	padding: 10px;
+	margin: 15px;
+	transition: 0.7s;
+	border: none;
+}
+.btnChoice button:hover {
+	background: black;
+	color: white;
+	border: 1px solid white;
+}
+
+/* HEADER */
+
+/* MAIN-TOP */
+.mainTop {
+	margin: 30px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mainTopImg img {
+	width: 80%;
+}
+.mainTopImg {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.mainTopImg img {
+	width: 80%;
+}
+
+.mainTopTitle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 5px 0;
+}
+
+.mainTopTitle .titleOne {
+	font-size: 12px;
+	font-weight: 400;
+}
+.mainTopTitle .titleTwo {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.mainTopLink button {
+	width: 150px;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	background: black;
+	transition: 0.7s;
+}
+.mainTopLink button:hover {
+	color: black;
+	background: white;
+	border: 1px solid black;
+}
+
+/* MAIN-TOP */
+
+/* MAIN-CENTER */
+
+.mainContent {
+	/* background: wheat; */
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.card {
+	border: 1px solid rgb(50, 73, 186);
+	width: 40vw;
+	height: 80vh;
+	color: #000;
+	margin: 15px;
+}
+/* MAIN-CENTER */
+
+/* FOOTER */
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: black;
+	height: 100px;
+	width: 100vw;
+}
+
+.linkFooter {
+	font-weight: 700;
+	font-size: 12px;
+	cursor: pointer;
+	color: white;
+}
+
+@media screen and (max-width: 700px) {
+	/* Rédigez vos propriétés CSS ici */
+	.discover,
+	.mainContent {
+		flex-direction: column;
+	}
+
+	.footer {
+		width: 100%;
+	}
+}
